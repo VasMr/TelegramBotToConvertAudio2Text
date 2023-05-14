@@ -2,8 +2,9 @@ import telebot
 import speech_recognition as sr
 import soundfile as sf
 
+#key for your bot from BotFather
+bot = telebot.TeleBot('') 
 
-bot = telebot.TeleBot('6086807016:AAFxwSbXkmzPnX2aUqPPasPjWdUSzxRV4mY')
 
 
 def convert_from_mp3(srcw):
