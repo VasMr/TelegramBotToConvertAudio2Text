@@ -23,7 +23,7 @@ def get_text_messages(message):
     chat_id = message.chat.id
     if message.content_type == 'text':
         if message.text.lower() == "привет":
-            bot.send_message(message.from_user.id, "Привет. Скинь мп3 или гс с ане ннглийской речью")
+            bot.send_message(message.from_user.id, "Привет. Скинь мп3 или гс с английской речью")
         elif message.text == "/help":
             bot.send_message(message.from_user.id, "Скинь мп3 или гс с английской речью")
         else:
